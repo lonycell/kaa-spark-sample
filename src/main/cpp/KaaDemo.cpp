@@ -62,9 +62,9 @@ double getRandomDouble(int max) {
  */
 int main()
 {
-    const std::size_t LOGS_TO_SEND_COUNT = 100;
+    const std::size_t LOGS_TO_SEND_COUNT = 1000;
     const std::size_t ZONE_COUNT = 10;
-    const std::size_t PANEL_COUNT = 100;
+    const std::size_t PANEL_COUNT = 10;
     const std::size_t MAX_PANEL_POWER = 100;
 
     std::cout << "Data collection demo started" << std::endl;
